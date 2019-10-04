@@ -38,10 +38,11 @@ header{
 }
 .languages{
     transition: all 0.3s;
-    margin-right: 24px;
+    padding-right: 24px;
     font-size: 20px;
     line-height: 27px;
     position: relative;
+    cursor: pointer;
     span::after{
         transition: all 0.3s;
     }
@@ -51,10 +52,9 @@ header{
     }
     ul{
         position: absolute;
-        z-index: -1;
-        opacity: 0;
         transition: all 0.3s;
         bottom: -70px;
+        display: none;
         li{
             margin-bottom: 5px;
         }
@@ -131,12 +131,27 @@ header{
 
 // white header
 .white{
+    z-index: 9999;
     background-color: #ffffff;
-    position: static;
+    position: fixed;
     color: #5A5A5A;
     padding-bottom: 15px;
+    top:0px;
+    left: 0px;
+    width: 100%;
+    box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.08);
     .menu,.info_header{
         margin-top: 15px;
+    }
+        .languages {
+            span{
+                margin-left: 15px;
+            }
+            ul{
+            background-color: white;
+            padding: 0 15px;
+            border-radius: 5px;
+        }
     }
 }
 

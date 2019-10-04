@@ -96,7 +96,7 @@
     background-position-y: 20px;
 
 }
-.slide_container:hover{
+.slide_container:hover , .product:hover{
     background-image: url('../image/Union.png');
     background-repeat: no-repeat;
     background-size: 80%;
@@ -283,7 +283,7 @@
             margin-bottom: 35px;
         }
     }
-    h4{
+   h4{
         font-size: 30px;
     }
     .reason {
