@@ -153,3 +153,30 @@
       font-size: 16px;
     }
   }
+  @media(max-width:991.9px){
+    .contacts{
+      height: auto;
+      margin-bottom: 50px;
+    }
+    .contacts .map_main .row > div{
+      height: 400px;
+    }
+    .button_switch{
+      display: flex;
+      justify-content: center;
+    }
+  }
+  @media(max-width:576.5px){
+    .contacts .map_main .row > div{
+      height: 300px;
+    }
+    .switch label{
+      font-size: 10px;
+      line-height: 10px;
+      margin-top: 0;
+    }
+    .switch{
+      width: 280px;
+      height: 26px;
+    }
+  }

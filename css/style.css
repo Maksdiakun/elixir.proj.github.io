@@ -530,6 +530,14 @@ h1 { font-weight: 600; font-size: 72px; line-height: 98px; text-align: center; l
 @media (max-width: 1549.9px) { .contact_block { font-size: 16px; }
   .switch label { font-size: 16px; } }
 
+@media (max-width: 991.9px) { .contacts { height: auto; margin-bottom: 50px; }
+  .contacts .map_main .row > div { height: 400px; }
+  .button_switch { display: -webkit-flex; display: -ms-flexbox; display: flex; -webkit-justify-content: center; -ms-flex-pack: center; justify-content: center; } }
+
+@media (max-width: 576.5px) { .contacts .map_main .row > div { height: 300px; }
+  .switch label { font-size: 10px; line-height: 10px; margin-top: 0; }
+  .switch { width: 280px; height: 26px; } }
+
 footer { padding-top: 95px; padding-bottom: 75px; background-color: #000000; }
 
 .name_footer { text-align: center; }
